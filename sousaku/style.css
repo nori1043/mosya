@@ -1,16 +1,26 @@
+
+body {
+  background-color: #E6E2D7;
+}
+
 .main-visual {
   position:relative
 }
 
 .main-visual > img {
   text-align: center;
-  max-width: 100%;
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+
 }
 
 .main-visual > img:nth-child(2) {
   position: absolute;
   top: 60px;
   right: 80px;
+  width: 40px;
+  height: 91px;
 }
 
 .header-items{
@@ -46,4 +56,157 @@ li:nth-child(2){
   outline: 2px solid #CCCCCC;
   outline-offset: -8px;
   text-align: center;
+}
+
+
+.category-news{
+  writing-mode: vertical-rl;
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.news-title > p {
+  position: absolute;
+  font-size: 14px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 180px;
+  left: 1179px;
+}
+
+.news-title > h1 {
+  position: absolute;
+  font-size: 36px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 180px;
+  left: 1128px;
+  white-space: nowrap;
+}
+
+.news-list {
+  list-style: none outside;
+  margin: 0;
+  padding: 0;
+  top: 275px;
+  left: 593px;
+  border-left: 1px solid #000;
+  /*position: absolute;*/
+  top: 780px;
+}
+
+.news-list .news-item {
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.news-list .news-item>a {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  border-right: 1px solid #000;
+  padding: 30px;
+}
+
+.news-list > p {
+  writing-mode: vertical-rl;
+}
+
+.date {
+  font-size: 12px;
+  color: #000;
+}
+
+.values {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.values > h1 {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 32px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 1326px;
+  left: 1160px;
+  white-space: nowrap;
+}
+
+.values-item {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 14px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 1624px;
+  left: 1171px;
+  white-space: nowrap;
+}
+
+.values > img {
+  position: absolute;
+  width: 639px;
+  height: 426px;
+  top: 1426px;
+  left: 501px;
+}
+.values-text {
+  position: absolute;
+  top: 1726px;
+  left: 481px;
+  color: #fff;
+  width: 358px;
+  height: 146px;
+  background: rgba(249, 233, 6, 0.6);
+  text-align: center;
+}
+
+.science {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.science > h1 {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 32px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 2032px;
+  left: 208px;
+  white-space: nowrap;
+}
+
+.science-item{
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 14px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 2330px;
+  left: 217px;
+  white-space: nowrap;
+}
+
+.science > img {
+  position: absolute;
+  width: 639px;
+  height: 426px;
+  top: 2132px;
+  left: 260px;
+}
+
+.science-text{
+  position: absolute;
+  top: 2432px;
+  left: 561px;
+  color: #fff;
+  width: 358px;
+  height: 146px;
+  background: rgba(149, 42, 38, 0.6);
 }
