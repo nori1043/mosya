@@ -4,7 +4,6 @@
 
 .main-visual > img {
   text-align: center;
-  /*max-width: 100%;*/
   object-fit: cover;
   height: 600px;
   width: 100%;
@@ -91,6 +90,8 @@ main {
   top: 275px;
   left: 593px;
   border-left: 1px solid #000;
+  /*position: absolute;*/
+  top: 780px;
 }
 
 .news-list .news-item {
@@ -107,7 +108,87 @@ main {
   padding: 30px;
 }
 
+.news-list > p {
+  writing-mode: vertical-rl;
+}
+
 .date {
   font-size: 12px;
   color: #000;
+}
+
+.values {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.values > h1 {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 32px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 1326px;
+  left: 1160px;
+  white-space: nowrap;
+}
+
+.values-item {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 14px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 1624px;
+  left: 1171px;
+  white-space: nowrap;
+}
+
+.values > img {
+  position: absolute;
+  width: 639px;
+  height: 426px;
+  top: 1426px;
+  left: 501px;
+}
+
+.values > p {
+  
+}
+
+.science {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.science > h1 {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 32px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 2032px;
+  left: 208px;
+  white-space: nowrap;
+}
+
+.science-item{
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 14px;
+  color: #000;
+  font-family: "Noto Serif JP";
+  top: 2330px;
+  left: 217px;
+  white-space: nowrap;
+}
+
+.science > img {
+  position: absolute;
+  width: 639px;
+  height: 426px;
+  top: 2132px;
+  left: 260px;
 }
