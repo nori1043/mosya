@@ -152,9 +152,15 @@ main {
   top: 1426px;
   left: 501px;
 }
-
-.values > p {
-  
+.values-text {
+  position: absolute;
+  top: 1726px;
+  left: 481px;
+  color: #fff;
+  width: 358px;
+  height: 146px;
+  background: rgba(249, 233, 6, 0.6);
+  text-align: center;
 }
 
 .science {
@@ -191,4 +197,14 @@ main {
   height: 426px;
   top: 2132px;
   left: 260px;
+}
+
+.science-text{
+  position: absolute;
+  top: 2432px;
+  left: 561px;
+  color: #fff;
+  width: 358px;
+  height: 146px;
+  background: rgba(149, 42, 38, 0.6);
 }
