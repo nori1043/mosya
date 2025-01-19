@@ -45,7 +45,6 @@ li:nth-child(2){
 }
 
 .header-btn > a {
-  writing-mode: vertical-rl;
   width: 68px;
   max-width: 100%;
   height: 252px;
@@ -56,6 +55,7 @@ li:nth-child(2){
   outline: 2px solid #CCCCCC;
   outline-offset: -8px;
   text-align: center;
+  writing-mode: vertical-rl;
 }
 
 main{
@@ -67,10 +67,10 @@ main{
 /*お知らせ*/
 
 .category-news{
-  writing-mode: vertical-rl;
   position: relative;
   width: 100%;
   margin-top: 180px;
+  writing-mode: vertical-rl;
 }
 
 .news-title > p {
@@ -149,14 +149,17 @@ main{
 }
 
 .values > img {
-  width: 639px;
-  height: 426px;
   position: absolute;
   top: 100px;
   right: 52px;
+  width: 639px;
+  height: 426px;
 }
 
 .values-text {
+  position: absolute;
+  top: 400px;
+  left: 273px;
   display: flex;
   color: #fff;
   width: 358px;
@@ -164,10 +167,6 @@ main{
   background: rgba(249, 233, 6, 0.6);
   justify-content: center;
   align-items: center;
-
-  position: absolute;
-  top: 400px;
-  left: 273px;
 }
 
 /*科学と技術の調和*/
@@ -176,35 +175,39 @@ main{
   text-align: -webkit-left;
   position: relative;
   margin-top: 280px;
+  margin-bottom: 258px;
 }
 
 .science-title{
-  writing-mode: vertical-rl;
   font-size: 32px;
   color: #000;
   font-family: "Noto Serif JP";
   white-space: nowrap;
+  writing-mode: vertical-rl;
 }
 
 .science-item{
-  writing-mode: vertical-rl;
   font-size: 14px;
   color: #000;
   font-family: "Noto Serif JP";
   white-space: nowrap;
   margin-left: 9px;
   margin-top: 15px;
+  writing-mode: vertical-rl;
 }
 
 .science > img {
-  width: 639px;
-  height: 426px;
   position: absolute;
   top: 100px;
   left: 52px;
+  width: 639px;
+  height: 426px;
 }
 
 .science-text{
+  position: absolute;
+  top: 397px;
+  left: 353px;
   display: flex;
   color: #fff;
   width: 358px;
@@ -212,18 +215,71 @@ main{
   background: rgba(149, 42, 38, 0.6);
   justify-content: center;
   align-items: center;
-  
-  position: absolute;
-  top: 397px;
-  left: 353px;
 }
 
-.map{
+/*map*/
+.map iframe{
+  width: 100%;
+}
+
+/*footer*/
+footer{
+  background-color: #000;
+  width: 100%;
+  height: 498px;
+  font-family: Noto Serif JP;
+}
+
+
+.footer-menu{
   position: relative;
 }
 
-.map-item{
+.logo{
   position: absolute;
-  top: 258px;
-  left: -210px;
+  top: 68px;
+  right: 80px;
+  width: 40px;
+  height: 91px;
+}
+
+.address{
+  position: absolute;
+  top: 68px;
+  right: 180px;
+  color: #FFF;
+  height: 404px;
+  writing-mode: vertical-rl;
+}
+
+.tel{
+  position: absolute;
+  top: 68px;
+  right: 208px;
+  color: #FFF;
+  height: 404px;
+  writing-mode: vertical-rl;
+}
+
+.footer-menu{
+  position: relative;
+}
+
+.footer-items{
+  position: absolute;
+  top: 68px;
+  right: 300px;
+  font-size: 16px;
+  font-family: "Noto Serif JP";
+  color: #FFF;
+  display: flex;
+}
+
+.footer-item{
+  writing-mode: vertical-rl;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
 }
